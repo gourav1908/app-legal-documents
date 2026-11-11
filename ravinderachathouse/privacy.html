@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ravindera Chat House – Privacy Policy</title>
+  <style>
+    :root {
+      --bg: #f7f6f3;
+      --surface: #ffffff;
+      --text: #1a1a1a;
+      --muted: #5c5c5c;
+      --border: #e4e2dc;
+      --accent: #0f5c4c;
+      --accent-soft: #e8f3ef;
+      --link: #0b6b57;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      background:
+        radial-gradient(ellipse at top, #eef6f3 0%, transparent 55%),
+        var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .page {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 2.5rem 1.25rem 4rem;
+    }
+
+    header {
+      margin-bottom: 2.5rem;
+      padding-bottom: 1.75rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .brand {
+      display: inline-block;
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--accent);
+      background: var(--accent-soft);
+      padding: 0.35rem 0.7rem;
+      border-radius: 999px;
+      margin-bottom: 1rem;
+    }
+
+    h1 {
+      margin: 0 0 1rem;
+      font-size: clamp(1.75rem, 4vw, 2.35rem);
+      line-height: 1.2;
+      letter-spacing: -0.02em;
+      font-weight: 700;
+    }
+
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem 1.5rem;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .meta strong {
+      color: var(--text);
+      font-weight: 600;
+    }
+
+    .intro {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 1.25rem 1.35rem;
+      margin-bottom: 2rem;
+      color: var(--muted);
+    }
+
+    h2 {
+      margin: 2.25rem 0 0.75rem;
+      font-size: 1.2rem;
+      letter-spacing: -0.01em;
+    }
+
+    p, li { color: var(--text); }
+
+    ul { padding-left: 1.2rem; }
+
+    li { margin: 0.35rem 0; }
+
+    a { color: var(--link); }
+
+    footer {
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 0.9em;
+      background: var(--accent-soft);
+      padding: 0.1rem 0.35rem;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header>
+      <div class="brand">Ravindera Chat House</div>
+      <h1>Privacy Policy</h1>
+      <div class="meta">
+        <span><strong>Effective date:</strong> 11 November 2026</span>
+        <span><strong>Apps:</strong> Ravindera Chat House, Ravindera Merchant</span>
+      </div>
+    </header>
+
+    <section class="intro">
+      This Privacy Policy explains how <strong>Ravindera Chat House</strong> (“we”, “us”, “our”)
+      collects, uses, and shares information when you use our mobile applications:
+      <strong>Ravindera Chat House</strong> (customer app, package
+      <code>com.ravinderachathouse</code>) and <strong>Ravindera Merchant</strong>
+      (staff app, package <code>com.ravinderachathouse.merchant</code>), including related
+      backend services hosted on Google Firebase.
+    </section>
+
+    <h2>1. Who we are</h2>
+    <p>
+      Ravindera Chat House is a food outlet in Nabha, Punjab, India. These apps let customers
+      browse the menu, place dine-in or pickup orders for collection at the counter, and track
+      order status. The merchant app is for authorised shop staff to manage orders and menu
+      availability/prices.
+    </p>
+    <p>
+      Contact for privacy requests:
+      <a href="mailto:gorisweet77@gmail.com">gorisweet77@gmail.com</a>
+      (replace with your preferred shop support email before publishing if different).
+    </p>
+
+    <h2>2. Information we collect</h2>
+    <p>Depending on how you use the apps, we may collect:</p>
+    <ul>
+      <li><strong>Account &amp; identity:</strong> phone number (via Firebase Phone Authentication), and the display name you provide in your profile.</li>
+      <li><strong>Order data:</strong> items ordered, packing options, customizations, order type (dine-in / pickup), amounts (stored in paise), order status history, and related timestamps.</li>
+      <li><strong>Device &amp; push tokens:</strong> Firebase Cloud Messaging (FCM) registration tokens so we can send order-related notifications. On Android 13+, notification permission is requested.</li>
+      <li><strong>App / technical logs:</strong> limited diagnostics that Firebase or the device OS may generate (for example crash or delivery errors). We do not sell advertising profiles.</li>
+      <li><strong>Staff access data (merchant app only):</strong> authenticated staff accounts with an admin privilege used to update order status and catalog fields.</li>
+    </ul>
+    <p>
+      Guests may browse the menu without signing in. Checkout, orders, profile, and notifications
+      require phone sign-in.
+    </p>
+
+    <h2>3. How we use information</h2>
+    <ul>
+      <li>Create and authenticate your account</li>
+      <li>Place, validate, and fulfill orders at the counter</li>
+      <li>Show live order status and order history</li>
+      <li>Send push notifications about order updates (customers) and new orders (staff)</li>
+      <li>Let authorised staff update order status and menu price/availability</li>
+      <li>Operate, secure, and troubleshoot the apps and Firebase backends</li>
+      <li>Comply with legal obligations if required</li>
+    </ul>
+    <p>
+      Payment in the current version is <strong>pay at counter only</strong>. We do not collect
+      card or UPI credentials through these apps.
+    </p>
+
+    <h2>4. Legal bases (where applicable)</h2>
+    <p>
+      We process information to provide the service you request (orders and account), with your
+      consent where required (for example notification permission), and for our legitimate
+      interests in running a secure food-ordering service for our shop.
+    </p>
+
+    <h2>5. Sharing of information</h2>
+    <p>We share data only as needed to run the service:</p>
+    <ul>
+      <li><strong>Google Firebase / Google Cloud</strong> — Authentication, Cloud Firestore, Cloud Functions, and Firebase Cloud Messaging (processing on our behalf).</li>
+      <li><strong>Shop staff</strong> — order details needed to prepare and hand over your order.</li>
+      <li><strong>Legal / safety</strong> — if required by law or to protect rights, safety, or the integrity of the service.</li>
+    </ul>
+    <p>We do not sell your personal information.</p>
+
+    <h2>6. Data retention</h2>
+    <p>
+      We keep account, order, and related records for as long as needed to operate the shop
+      apps, resolve disputes, and meet legal or accounting needs. Push tokens are updated or
+      removed when they become invalid or when you sign out / uninstall (subject to device and
+      Firebase behaviour). You may request deletion of your account data using the contact email
+      above; we will delete or anonymise personal data unless we must retain it for legitimate
+      business or legal reasons (for example completed order records).
+    </p>
+
+    <h2>7. Security</h2>
+    <p>
+      We use Firebase Authentication, security rules, and server-side order placement/status
+      updates to limit unauthorised access. No method of transmission or storage is 100% secure;
+      please protect your device and do not share OTP codes.
+    </p>
+
+    <h2>8. Children’s privacy</h2>
+    <p>
+      The apps are intended for general audiences placing food orders. They are not directed at
+      children under 13. If you believe a child has provided personal data, contact us and we
+      will take appropriate steps.
+    </p>
+
+    <h2>9. Your choices &amp; rights</h2>
+    <ul>
+      <li>Decline or revoke notification permission in system settings</li>
+      <li>Sign out of the apps</li>
+      <li>Request access, correction, or deletion of your personal data by emailing us</li>
+      <li>Uninstall the apps to stop further local collection on that device</li>
+    </ul>
+
+    <h2>10. International processing</h2>
+    <p>
+      Our backends use Google Firebase / Google Cloud, which may process data in regions
+      selected for the project (including India) and other Google infrastructure locations as
+      described in Google’s documentation. By using the apps, you understand your information
+      may be processed in these locations.
+    </p>
+
+    <h2>11. Third-party services</h2>
+    <p>
+      Firebase products are governed by Google’s applicable terms and privacy notices in
+      addition to this policy. Links:
+      <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase Privacy</a>
+      and
+      <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a>.
+    </p>
+
+    <h2>12. Changes to this policy</h2>
+    <p>
+      We may update this Privacy Policy from time to time. The “Effective date” at the top will
+      change when we do. Continued use of the apps after an update means you accept the revised
+      policy.
+    </p>
+
+    <h2>13. Contact</h2>
+    <p>
+      Ravindera Chat House<br />
+      Nabha, Punjab, India<br />
+      Email: <a href="mailto:gorisweet77@gmail.com">gorisweet77@gmail.com</a>
+    </p>
+
+    <footer>
+      This page covers both the customer app (<code>com.ravinderachathouse</code>) and the
+      merchant app (<code>com.ravinderachathouse.merchant</code>) for Google Play and related
+      store listings.
+    </footer>
+  </main>
+</body>
+</html>
