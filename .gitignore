@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# JetBrains / Android Studio
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VS Code / Cursor
+.vscode/
+*.code-workspace
+
+# Editor / temp
+*.swp
+*.swo
+*.bak
+*.tmp
+.cache/
