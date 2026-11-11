@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ravindera Chat House – Delete Account</title>
+  <style>
+    :root {
+      --bg: #f7f6f3;
+      --surface: #ffffff;
+      --text: #1a1a1a;
+      --muted: #5c5c5c;
+      --border: #e4e2dc;
+      --accent: #0f5c4c;
+      --accent-soft: #e8f3ef;
+      --link: #0b6b57;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      background:
+        radial-gradient(ellipse at top, #eef6f3 0%, transparent 55%),
+        var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .page {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 2.5rem 1.25rem 4rem;
+    }
+
+    header {
+      margin-bottom: 2.5rem;
+      padding-bottom: 1.75rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .brand {
+      display: inline-block;
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--accent);
+      background: var(--accent-soft);
+      padding: 0.35rem 0.7rem;
+      border-radius: 999px;
+      margin-bottom: 1rem;
+    }
+
+    h1 {
+      margin: 0 0 1rem;
+      font-size: clamp(1.75rem, 4vw, 2.35rem);
+      line-height: 1.2;
+      letter-spacing: -0.02em;
+      font-weight: 700;
+    }
+
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem 1.5rem;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .meta strong {
+      color: var(--text);
+      font-weight: 600;
+    }
+
+    .intro {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 1.25rem 1.35rem;
+      margin-bottom: 2rem;
+      color: var(--muted);
+    }
+
+    .steps {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 1.25rem 1.35rem;
+      margin: 1rem 0 2rem;
+    }
+
+    .steps ol {
+      margin: 0.5rem 0 0;
+      padding-left: 1.25rem;
+    }
+
+    h2 {
+      margin: 2.25rem 0 0.75rem;
+      font-size: 1.2rem;
+      letter-spacing: -0.01em;
+    }
+
+    p, li { color: var(--text); }
+
+    ul { padding-left: 1.2rem; }
+
+    li { margin: 0.35rem 0; }
+
+    a { color: var(--link); }
+
+    footer {
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 0.9em;
+      background: var(--accent-soft);
+      padding: 0.1rem 0.35rem;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header>
+      <div class="brand">Ravindera Chat House</div>
+      <h1>Delete your account</h1>
+      <div class="meta">
+        <span><strong>App:</strong> Ravindera Chat House</span>
+        <span><strong>Package:</strong> <code>com.ravinderachathouse</code></span>
+        <span><strong>Effective date:</strong> 11 November 2026</span>
+      </div>
+    </header>
+
+    <section class="intro">
+      This page explains how to request deletion of your
+      <strong>Ravindera Chat House</strong> customer account and associated personal data.
+      Use these steps if you created an account by signing in with your phone number (OTP).
+    </section>
+
+    <h2>How to request account deletion</h2>
+    <div class="steps">
+      <ol>
+        <li>
+          Email
+          <a href="mailto:gorisweet77@gmail.com?subject=Delete%20my%20Ravindera%20Chat%20House%20account">gorisweet77@gmail.com</a>
+          from an email address we can use to reply to you.
+        </li>
+        <li>Use the subject line: <strong>Delete my Ravindera Chat House account</strong>.</li>
+        <li>
+          In the message body, include:
+          <ul>
+            <li>The phone number registered in the app (with country code, e.g. +91…)</li>
+            <li>A short confirmation that you want the account permanently deleted</li>
+          </ul>
+        </li>
+        <li>
+          We will verify the request (we may ask you to confirm ownership of the phone number)
+          and process it within <strong>30 days</strong>.
+        </li>
+      </ol>
+    </div>
+    <p>
+      There is currently no in-app “Delete account” button. Email is the supported method.
+      After deletion, sign-out / uninstall the app on your devices.
+    </p>
+
+    <h2>Data that is deleted</h2>
+    <p>When your deletion request is completed, we delete or permanently de-identify:</p>
+    <ul>
+      <li>Your Firebase Authentication account linked to that phone number</li>
+      <li>Your customer profile (including display name stored for the account)</li>
+      <li>Push notification (FCM) tokens stored for your user account</li>
+      <li>Other personal identifiers tied directly to your user ID that are not required for legal retention</li>
+    </ul>
+
+    <h2>Data that may be retained</h2>
+    <p>
+      Some order records may be kept for shop operations, dispute handling, accounting, or legal
+      compliance (for example order number, items, amounts, and timestamps). Where possible we
+      remove or anonymise direct identifiers (such as phone number and name) from retained records.
+    </p>
+    <p>
+      Any retained order-related records are kept only as long as needed for those purposes, and
+      generally no longer than <strong>24 months</strong>, unless a longer period is required by law.
+    </p>
+
+    <h2>Additional notes</h2>
+    <ul>
+      <li>Guest browsing does not create an account; there is nothing to delete for guests.</li>
+      <li>Denying notification permission or uninstalling the app does not by itself delete your account.</li>
+      <li>
+        More detail on how we handle data is in our
+        <a href="./privacy.html">Privacy Policy</a>.
+      </li>
+    </ul>
+
+    <h2>Contact</h2>
+    <p>
+      Ravindera Chat House<br />
+      Nabha, Punjab, India<br />
+      Email:
+      <a href="mailto:gorisweet77@gmail.com">gorisweet77@gmail.com</a>
+    </p>
+
+    <footer>
+      This account-deletion page is for the Google Play listing of
+      <strong>Ravindera Chat House</strong> (<code>com.ravinderachathouse</code>).
+    </footer>
+  </main>
+</body>
+</html>
